@@ -19,9 +19,38 @@ print("10")
 #for number in range(3, 11):
 #    print(number)
 
-for i in "KodFactory":
-    print(i)
+#for i in "KodFactory":
+#    print(i)
 
 # Print all the even numbers from 1 to 100 using
 # for loop
 # Hint: You need to write if condition inside for loop
+
+#for i in range(20):
+#    if i%2 ==0:
+#        print(i)
+
+for i in range(1, 100, 2):
+    print(i)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
