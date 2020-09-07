@@ -7,17 +7,23 @@
 
 # Python is interpreted language
 
-mymarks = 85
+def getGradesBasedOnMarks(mymarks):
+    if mymarks >= 80:
+        print ("A Grade")
 
-if mymarks >= 80:
-    print ("A Grade")
+    elif 60 <= mymarks < 80:
+        print ("B Grade")
 
-elif 60 <= mymarks < 80:
-    print ("B Grade")
+    elif 35 <= mymarks < 60:
+        print ("C Grade")
 
-elif 35 <= mymarks < 60:
-    print ("C Grade")
+    else:
+        print ("Failed")
 
-else:
-    print ("Failed")
+mymarks = int(input("Enter your marks: "))
+
+getGradesBasedOnMarks(mymarks)
+
+
+
     
